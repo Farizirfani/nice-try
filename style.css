@@ -3,17 +3,6 @@
     margin: 0;
 }
 
-.item1 {
-    grid-area: left;
-}
-
-.item2 {
-    grid-area: main;
-}
-
-.item3 {
-    grid-area: right;
-}
 
 .navbar{
     background: linear-gradient(90deg, rgba(17, 19, 21, 1) 0%, rgba(31, 33, 35, 1) 100%);
