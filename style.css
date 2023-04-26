@@ -1,5 +1,109 @@
-/* silahkan ngoding  */
+*{
+    padding: 0;
+    margin: 0;
+}
 
-.test {
-    color: goldenrod;
+.item1 {
+    grid-area: left;
+}
+
+.item2 {
+    grid-area: main;
+}
+
+.item3 {
+    grid-area: right;
+}
+
+.navbar{
+    background: linear-gradient(90deg, rgba(17, 19, 21, 1) 0%, rgba(31, 33, 35, 1) 100%);
+    height: 50px;
+    padding: 4px;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.navbar .logo{
+    cursor: pointer;
+    margin: 8px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.search-box{
+    background: linear-gradient(90deg, rgba(39, 40, 42, 1) 0%, rgba(28, 31, 30, 1) 100%);
+    width: auto;
+    padding: 5px;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.search-input{
+    width: 300px;
+    margin-inline: 4px;
+    border: none;
+    outline: none;
+    color: aliceblue;
+    background-color: transparent;
+}
+
+.navbar ul li{
+    display: inline-block;
+    justify-items: center;
+}
+
+.content{
+    background: linear-gradient(90deg, rgba(17, 19, 21, 1) 0%, rgba(31, 33, 35, 1) 100%);
+    display: flex;
+    width: auto;
+}
+
+
+.main{
+    width: 70%;
+    color: aliceblue;
+    text-align: center;
+}
+
+.main .grid-main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main .grid-main .grid-1{
+    width: 700px;
+    height: 300px;
+    margin-inline: 20px;
+    background-color: #FA627F;
+    border-radius: 25px;
+}
+.main .grid-main .grid-2{
+    width: 300px;
+    height: 300px;
+    margin-inline: 20px;
+    /* background-color: #242525;
+    border-radius: 25px; */
+    background: #242525;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9px);
+    -webkit-backdrop-filter: blur(9px);
+    border: 1px solid rgba(26, 28, 30, 0.07);
+}
+
+.aside-left{
+    background-color: transparent;
+    width: 15%;
+    height: auto;
+    color: aliceblue;
+}
+.aside-right{
+    width: 15%;
+    height: 100vh;
+    background-color: transparent;
+    float: right;
+    color: aliceblue;
 }
