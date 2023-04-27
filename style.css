@@ -4,6 +4,9 @@
 }
 
 
+/* navbar */
+
+
 .navbar{
     background: linear-gradient(90deg, rgba(17, 19, 21, 1) 0%, rgba(31, 33, 35, 1) 100%);
     height: auto;
@@ -53,6 +56,9 @@
     justify-items: center;
 }
 
+
+/* content */
+
 .content{
     background: linear-gradient(90deg, rgba(17, 19, 21, 1) 0%, rgba(31, 33, 35, 1) 100%);
     display: flex;
@@ -60,6 +66,8 @@
     padding: 15px 0 15px;
 }
 
+
+/* main */
 
 .main{
     width: auto;
@@ -78,35 +86,39 @@
     margin-inline: 20px;
     background-color: #FA627F;
     border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+
+/* banner warna merah di tengah */
 
 .grid-1 .container-1{
     display: flex;
-    justify-content: space-around;
 }
 
 
-.grid-1 .container-1 .banner-merah-1{
+.banner-merah-1{
+    background-color: aqua;
+    width: 650px;
+    border: 2px solid black;
+    border-radius: 25px;
+    min-height: 250px;
+    margin: 5px;
+    z-index: 5;
+    text-align: start;
+    padding: 7px;
+}
+
+.banner-merah-2{
+    /* background-color: blue; */
+    width: auto ;
     height: auto;
-    width: auto;
-    align-items: flex-end;
-    background-color: fuchsia;
-    z-index: 4;
-}
-.grid-1 .container-1 .banner-merah-1 .box-transparet{
-    width: 300px;
-    padding: 4px;
+    z-index: 2;
 }
 
-.grid-1 .container-1 .banner-merah-2{
-    height: auto;
-    width: auto;
-}
-
-.grid-1 .container-1 .banner-merah-2 img{
-    position: relative;
-    left: 0;
-    bottom: 3.5px;
+.banner-merah-2 img{
 }
 
 
@@ -153,6 +165,8 @@
     font-weight: 600;
 }
 
+/* side left */
+
 .aside-left{
     background-color: transparent;
     width: 15%;
@@ -160,6 +174,34 @@
     text-align: center;
     color: aliceblue;
 }
+
+.home-icon{
+    padding: 10px 0 10px 0;
+}
+
+.home-icon .fa-solid{
+    background-color: #FA627F;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.bar-left{
+    width: auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.video{
+    background-color: #242525;
+    width: 50px;
+}
+
+/* side right */
+
 .aside-right{
     width: 15%;
     height: 100vh;
