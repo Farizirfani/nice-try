@@ -6,8 +6,8 @@
 
 .navbar{
     background: linear-gradient(90deg, rgba(17, 19, 21, 1) 0%, rgba(31, 33, 35, 1) 100%);
-    height: 50px;
-    padding: 4px;
+    height: auto;
+    padding: 10px;
     color: aliceblue;
     display: flex;
     justify-content: space-between;
@@ -26,6 +26,7 @@
     background: linear-gradient(90deg, rgba(39, 40, 42, 1) 0%, rgba(28, 31, 30, 1) 100%);
     width: auto;
     padding: 5px;
+    height: auto;
     border-radius: 25px;
     text-align: center;
 }
@@ -38,6 +39,14 @@
     color: aliceblue;
     background-color: transparent;
 }
+.search-box button{
+    text-align: center;
+    justify-content: center;
+    padding: 4px 15px 4px 15px;
+    background-color: #2b2e30;
+    margin: 0 2px 0 2px;
+    border-radius: 25px;
+}
 
 .navbar ul li{
     display: inline-block;
@@ -48,11 +57,12 @@
     background: linear-gradient(90deg, rgba(17, 19, 21, 1) 0%, rgba(31, 33, 35, 1) 100%);
     display: flex;
     width: auto;
+    padding: 15px 0 15px;
 }
 
 
 .main{
-    width: 70%;
+    width: auto;
     color: aliceblue;
     text-align: center;
 }
@@ -69,6 +79,39 @@
     background-color: #FA627F;
     border-radius: 25px;
 }
+
+.grid-1 .container-1{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.grid-1 .container-1 .banner-merah-1{
+    height: auto;
+    width: auto;
+    align-items: flex-end;
+    background-color: fuchsia;
+    z-index: 4;
+}
+.grid-1 .container-1 .banner-merah-1 .box-transparet{
+    width: 300px;
+    padding: 4px;
+}
+
+.grid-1 .container-1 .banner-merah-2{
+    height: auto;
+    width: auto;
+}
+
+.grid-1 .container-1 .banner-merah-2 img{
+    position: relative;
+    left: 0;
+    bottom: 3.5px;
+}
+
+
+
+
 .main .grid-main .grid-2{
     width: 300px;
     height: 300px;
@@ -83,16 +126,43 @@
     border: 1px solid rgba(26, 28, 30, 0.07);
 }
 
+.judul-play{
+    margin: 20px 17px 20px 17px;
+    text-align: start;
+    
+}
+.judul-play .judul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.judul-play .judul p{
+    color: #FA627F;
+    font-weight: 500;
+}
+
+.judul-play p{
+    text-align: start;
+    font-size: 15px;
+    word-spacing: 2%;
+    font-weight: 300;
+}
+
+.judul-play h1{
+    font-size: 25px;
+    font-weight: 600;
+}
+
 .aside-left{
     background-color: transparent;
     width: 15%;
     height: auto;
+    text-align: center;
     color: aliceblue;
 }
 .aside-right{
     width: 15%;
     height: 100vh;
-    background-color: transparent;
     float: right;
     color: aliceblue;
 }
